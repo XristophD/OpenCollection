@@ -211,20 +211,20 @@
                     // "trailing_diamond": "\ue0b4",
                     "type": "kubectl"
                 },
-                {
-                    "background": "#b2bec3",
-                    "foreground": "#222222",
-                    // "leading_diamond": "\ue0b6",
-                    "leading_diamond": "\ue0b2",
-                    "properties": {
-                        "linux": "\ue712",
-                        "macos": "\ue711",
-                        "windows": "\ue70f"
-                    },
-                    "style": "diamond",
-                    "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}<#222222> \ue0b2</>",
-                    "type": "os"
-                },
+                // {
+                //     "background": "#b2bec3",
+                //     "foreground": "#222222",
+                //     // "leading_diamond": "\ue0b6",
+                //     "leading_diamond": "\ue0b2",
+                //     "properties": {
+                //         "linux": "\ue712",
+                //         "macos": "\ue711",
+                //         "windows": "\ue70f"
+                //     },
+                //     "style": "diamond",
+                //     "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}<#222222> \ue0b2</>",
+                //     "type": "os"
+                // },
                 // {
                 //     "background": "#f36943",
                 //     "background_templates": [
@@ -244,19 +244,19 @@
                 //     "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}\uf295 <#262626>\ue0b2</>",
                 //     "type": "battery"
                 // },
-                {
-                    "background": "#40c4ff",
-                    "foreground": "#ffffff",
-                    "invert_powerline": true,
-                    "leading_diamond": "\ue0b2",
-                    "properties": {
-                        "time_format": "_2,15:04"
-                    },
-                    "style": "diamond",
-                    "template": " \uf073 {{ .CurrentDate | date .Format }} ",
-                    "trailing_diamond": "\ue0b4",
-                    "type": "time"
-                }
+                // {
+                //     "background": "#40c4ff",
+                //     "foreground": "#ffffff",
+                //     "invert_powerline": true,
+                //     "leading_diamond": "\ue0b2",
+                //     "properties": {
+                //         "time_format": "_2,15:04"
+                //     },
+                //     "style": "diamond",
+                //     "template": " \uf073 {{ .CurrentDate | date .Format }} ",
+                //     "trailing_diamond": "\ue0b4",
+                //     "type": "time"
+                // }
             ],
             "type": "prompt"
         },
